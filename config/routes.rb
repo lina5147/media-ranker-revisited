@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # Omniauth Login Route
   get "/auth/github", as: "github_login"
   # Omniauth Github callback route
-  get "/auth/:provider/callback", to: "users#create", as: "omniauth_callback"
+  get "/auth/:provider/callback", to: "users#create", as: "auth_callback"
   # logging out
   delete "/logout", to: "users#destroy", as: "logout"
 
