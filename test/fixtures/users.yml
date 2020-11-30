@@ -2,6 +2,14 @@
 
 dan:
   username: dan
+  name: Dan Scooter
+  uid: 1234567
+  email: dscooter@gmail.com
+  provider: github
 
 kari:
   username: kari
+  name: Kari Hover
+  uid: 46345654
+  email: khover@gmail.com
+  provider: github
